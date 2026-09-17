@@ -1,0 +1,12 @@
+{
+    "extends": "@ringieraxelspringer/tsconfig/tsconfig.esm.json",
+    "compilerOptions": {
+        "noEmit": true,
+        "rootDir": ".",
+        "skipLibCheck": true
+    },
+    "include": [
+        "src",
+        "tests"
+    ]
+}

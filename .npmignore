@@ -1,0 +1,13 @@
+/.idea
+/.vscode
+/CHANGELOG.md
+/CONTRIBUTING.md
+/coverage
+/docs
+/examples
+/src
+/tests
+/tsconfig.json
+/tsup.config.ts
+/vitest.config.ts
+/vitest.e2e.config.ts

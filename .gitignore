@@ -1,0 +1,8 @@
+/*.log
+/.env
+/.idea
+/.tool-versions
+/.vscode
+/coverage
+/dist
+/node_modules
