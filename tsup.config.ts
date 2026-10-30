@@ -26,7 +26,7 @@ export default defineConfig([
         dts: true,
         sourcemap: true,
         clean: true,
-        target: 'node20',
+        target: 'node22',
         define,
         // Shared chunks, so `err instanceof AuthError` holds across entry points and
         // the library is not inlined three times into the tarball.
@@ -40,7 +40,7 @@ export default defineConfig([
         banner: { js: '#!/usr/bin/env node' },
         dts: false,
         sourcemap: true,
-        target: 'node20',
+        target: 'node22',
         define,
         splitting: false
     }

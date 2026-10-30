@@ -1,6 +1,18 @@
 # CHANGELOG
 The format is based on [Keep a Changelog](https://keepachangelog.com/), and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## 2.0.0 - 2026-10-30
+### Added
+- [@mdulawa]: Added support for Node v26.
+- [@mdulawa]: Exported the `ResolvedConfig` and `ResponseInfo` types, which `resolveConfig()` and `formatRequestLine()` already use, so consumers can name them.
+
+### Changed
+- [@mdulawa]: Upgraded build tooling to TypeScript v6, `@ringieraxelspringer/tsconfig` v8 and `tsup` v9 (required for Node v26); compiled output now targets Node v22.
+- [@mdulawa]: Upgraded CI/CD to `sdk-workflow-node-library` v3, so the package is built, tested and published on Node v26. CI reports Vitest results and coverage.
+
+### Removed
+- [@mdulawa]: Dropped support for Node v20, which reached its end of life.
+
 ## 1.0.0 - 2026-09-14
 ### Changed
 - [@mdulawa]: Public version.

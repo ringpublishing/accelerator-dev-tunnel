@@ -18,7 +18,15 @@ export { formatTimestamp, formatRequestLine } from './format.js';
 import { startControl } from './tunnel/control.js';
 import { DataConnectionPool } from './tunnel/pool.js';
 
-export type { Tunnel, TunnelOptions, TunnelEvents, RequestInfo, DisconnectReason } from './types.js';
+export type {
+    Tunnel,
+    TunnelOptions,
+    TunnelEvents,
+    RequestInfo,
+    ResponseInfo,
+    ResolvedConfig,
+    DisconnectReason
+} from './types.js';
 // Consumers are told to branch on `err instanceof AuthError`; without exporting the
 // classes there is no way for them to do that.
 export { AuthError, TakeoverError, MissingParamError } from './errors.js';

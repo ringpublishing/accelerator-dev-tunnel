@@ -1,5 +1,5 @@
 {
-    "extends": "@ringieraxelspringer/tsconfig/tsconfig.esm.json",
+    "extends": "@ringieraxelspringer/tsconfig",
     "compilerOptions": {
         "noEmit": true,
         "rootDir": ".",

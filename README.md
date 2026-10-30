@@ -12,7 +12,7 @@ When you configure a variant as `dev-tunnel`, all traffic hitting that variant i
 - A JWT token for that variant — see
   [Dev tunnel](https://developer.ringpublishing.com/docs/Accelerator/topics/development/dev-tunnel/index.html)
   in the Accelerator documentation for how to create the variant and obtain the token
-- Node.js 20 or newer
+- Node.js 22 or newer
 
 ---
 

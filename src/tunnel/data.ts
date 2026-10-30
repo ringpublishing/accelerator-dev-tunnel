@@ -240,7 +240,7 @@ export function handleDataConnection(
 
             let headSeen = false;
 
-            socket.on('data', (chunk) => {
+            socket.on('data', (chunk: Buffer) => {
                 if (!headSeen) {
                     headSeen = true;
 
